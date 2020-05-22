@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/bnvHome">
+
+    <fragment
+        android:id="@+id/bnvHome"
+        android:name="br.com.guiamusical.ui.main.home.HomeFragment"
+        android:label="@string/bnvHomeLabel"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/bnvMenu"
+        android:name="br.com.guiamusical.ui.main.menu.MenuFragment"
+        android:label="@string/bnvMenuLabel"
+        tools:layout="@layout/fragment_menu" />
+    <fragment
+        android:id="@+id/bnvShows"
+        android:name="br.com.guiamusical.ui.main.shows.ShowsFragment"
+        android:label="@string/bnvShowsLabel"
+        tools:layout="@layout/fragment_shows" />
+
+    <fragment
+        android:id="@+id/bnvNews"
+        android:name="br.com.guiamusical.ui.main.news.NewsFragment"
+        android:label="@string/bnvNewsLabel"
+        tools:layout="@layout/fragment_news" />
+
+
+</navigation>

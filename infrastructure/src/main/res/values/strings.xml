@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">infrastructure</string>
+    <string name="base_url">http://3.15.185.113:8080/api-guiamusical/</string>
+</resources>

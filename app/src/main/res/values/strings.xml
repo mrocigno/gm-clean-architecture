@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GuiaMusical</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bnvHomeLabel">Home</string>
+    <string name="bnvNewsLabel">Noticias</string>
+    <string name="bnvShowsLabel">Shows</string>
+    <string name="bnvMenuLabel">Menu</string>
+</resources>
